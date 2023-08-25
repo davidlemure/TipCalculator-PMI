@@ -7,14 +7,14 @@
         <Label Text="Total da conta"/>
         <Entry x:Name="billInput" Placeholder="Insira o valor" Keyboard="Numeric"/>
         <Label Text="Tip"   />
-        <Label x:Name="tipoOutput" Text="0.00"/>
+        <Label x:Name="tipOutput" Text="0.00"/>
 
         <Label Text="Total"   />
         <Label x:Name="totalOutput" Text="0.00"/>
 
         <Label Text="Porcentagem de gorjeta"   />
-        <Label x:Name="tipoPercent" Text="15%"/>
-        <Slider x:Name="tipoPercentSlider" Minimum="0" Maximum="100" Value="15"/>
+        <Label x:Name="tipPercent" Text="15%"/>
+        <Slider x:Name="tipPercentSlider" Minimum="0" Maximum="100" Value="15"/>
 
         <Button Text="15%" />
         <Button Text="20%" />

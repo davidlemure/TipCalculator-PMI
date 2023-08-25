@@ -1,4 +1,4 @@
-﻿namespace TipoCalculetor;
+﻿namespace Tipocalculator;
 
 public partial class MainPage : ContentPage
 {
@@ -11,21 +11,21 @@ public partial class MainPage : ContentPage
 		roundDown.Clicked += (s, e) => CalculateTip(false, true);
 		roundUp.Clicked += (s, e) => CalculateTip(true, false);
 
-		tipPercentSlider.ValueChanged += (s, e) =>
+        tipPercentSlider.ValueChanged += (s, e) =>
 		{
 			double pct = Math.Round(e.NewValue);
-			tipoPercent.Text = pct + "" + "%";
+			tipPercent.Text = pct + "%";
 			CalculateTip(false, false);
 		};
 	}
 
-	void CalculateTip(boot roundUp, boot roundDown)
+	void CalculateTip(bool roundUp, bool roundDown)
 	{
 		double t;
 		if (Double.TryParse(billInput.Text, out t) && t > 0)
 		{
-			double pct = Math.Round(tipPercentSlider.Value)
-			double tip = Math.Round(t * (pct / 100.00) 2);
+			double pct = Math.Round(tipPercentSlider.Value);
+			double tip = Math.Round(t * (pct / 100.00), 2);
 
 			double final = t + tip;
 
@@ -35,12 +35,13 @@ public partial class MainPage : ContentPage
 				tip = final - t;
 			}
 			else if (roundDown)
-			{ final = Math.Floor(final);
+			{ 
+			final = Math.Floor(final);
 			tip = final - t;
 			}
 
-			tipOutput.Text = tip.TopString(tip);
-			totalOutput.Text = final.ToString(final)
+            tipOutput.Text = tip.ToString("C");
+			totalOutput.Text = final.ToString("C");
 		}
 	}
 }
