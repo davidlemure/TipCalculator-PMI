@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\David L\pmi\AulaTipoCalculator\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-08-25T23:09:26.774</Modified>
+      <Modified>2023-08-26T00:30:01.587</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\David L\pmi\AulaTipoCalculator\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-08-25T23:09:26.190</Modified>
+      <Modified>2023-08-26T00:30:01.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\David L\pmi\AulaTipoCalculator\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Tipocalculator.runtimeconfig.json">
       <PackagePath>Tipocalculator.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\David L\pmi\AulaTipoCalculator\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Tipocalculator.dll">
       <PackagePath>Tipocalculator.dll</PackagePath>
-      <Modified>2023-08-25T23:09:25.270</Modified>
+      <Modified>2023-08-26T00:30:00.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\David L\pmi\AulaTipoCalculator\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Tipocalculator.exe</PackagePath>
-      <Modified>2023-08-25T23:09:25.296</Modified>
+      <Modified>2023-08-26T00:30:00.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\etechas\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.1\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -920,7 +920,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\David L\pmi\AulaTipoCalculator\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Tipocalculator.deps.json">
       <PackagePath>Tipocalculator.deps.json</PackagePath>
-      <Modified>2023-08-25T23:09:26.633</Modified>
+      <Modified>2023-08-26T00:30:01.461</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.52\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

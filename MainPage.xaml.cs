@@ -12,9 +12,9 @@ public partial class MainPage : ContentPage
 		roundUp.Clicked += (s, e) => CalculateTip(true, false);
 
         tipPercentSlider.ValueChanged += (s, e) =>
+
 		{
-			double pct = Math.Round(e.NewValue);
-			tipPercent.Text = pct + "%";
+
 			CalculateTip(false, false);
 		};
 	}
@@ -44,4 +44,17 @@ public partial class MainPage : ContentPage
 			totalOutput.Text = final.ToString("C");
 		}
 	}
+	public void OnNormalTip(object sender, EventArgs e) 
+	{
+        tipPercentSlider.Value = 15 ;
+
+    }
+
+    public void OnGenerousTip(object sender, EventArgs e) 
+	{
+        tipPercentSlider.Value = 20 ;
+
+    }
+
+
 }
