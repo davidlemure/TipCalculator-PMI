@@ -14,7 +14,8 @@ public partial class MainPage : ContentPage
         tipPercentSlider.ValueChanged += (s, e) =>
 
 		{
-
+			double pct = Math.Round(e.NewValue);
+			tipPercent.Text = pct + "%";
 			CalculateTip(false, false);
 		};
 	}
